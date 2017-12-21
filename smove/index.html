@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>Smove</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="init()">
+  <canvas id="main" height="1136px" width="640px"></canvas>
+
+  <div id="over" class="invisible">
+    <p class="label">GAME OVER</p>
+    <p class="score" id="score"></p>
+    <label id="restart" class="label_btn" onclick="start()">Restart</label>
+  </div>
+
+  <div id="begin" class="invisible">
+    <h1>Smove</h3>
+    <p class="info">Swipe to move</p>
+    <label id="start" class="label_btn" onclick="start()">Start</label>
+  </div>
+</body>
+<script type="text/javascript" src="lib.js"></script>
+<script type="text/javascript" src="smove.js"></script>
+</html>

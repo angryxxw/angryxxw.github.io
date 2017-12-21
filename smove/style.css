@@ -1,0 +1,51 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  border: 1px solid black;
+}
+
+.visible {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 3em;
+  color: white;
+  line-height: 0;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.invisible {
+  display: none;
+}
+
+.score {
+  font-size: 5em;
+}
+
+.label_btn {
+  margin: auto;
+  border-radius: 10px;
+  border: 3px solid #FFFFFF;
+  padding: 5px;
+}
+
+.label_btn:hover {
+  cursor: pointer;
+}
+
+.info {
+  font-size: 0.5em;
+  margin-bottom: 10em;
+}
